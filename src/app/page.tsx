@@ -94,7 +94,7 @@ export default function Home() {
                 onClick={fetchNext}
                 disabled={isFetching}
               >
-                Load More (Page {nextPage})
+                Load More
               </button>
             </div>
           )}

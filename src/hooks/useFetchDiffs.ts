@@ -8,7 +8,7 @@ interface ApiResponse {
   perPage: number;
 }
 
-export function useFetchDiffs(perPage = 5) {
+export function useFetchDiffs(perPage = 3) {
   const [diffs, setDiffs] = useState<DiffItem[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
