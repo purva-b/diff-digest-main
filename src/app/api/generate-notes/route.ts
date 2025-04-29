@@ -32,6 +32,7 @@ export async function POST(req: Request) {
 
     const completionIterable = await openai.chat.completions.create({
         model: "gpt-4o-mini",
+        temperature: 0.2,
         stream: true,
         messages: [
             { role: "system", content: "You generate dual-tone release notes." },
