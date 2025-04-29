@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 
 interface DiffViewerProps {
   diff: string;
 }
 
 export default function DiffViewer({ diff }: DiffViewerProps) {
-  const lines = diff.split("\n");
+  const lines = diff.split('\n');
 
   return (
     <pre className="overflow-auto rounded-md border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-800 p-4 text-sm font-mono">
