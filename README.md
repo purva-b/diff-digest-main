@@ -123,7 +123,7 @@ OPENAI_API_KEY=your_openai_api_key
 **Alternatively, you can use the provided free API key for this take-home assignment:**
 
 ```
-OPENAI_API_KEY=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
+OPENAI_API_KEY= SAMPLE_OPENAPI_KEY
 ```
 
 **Available Models for the free key:** `gpt-4.1-mini`, `gpt-4.1-nano`, `gpt-4o-mini`, `o1-mini`, `o3-mini`, and `o4-mini`.
